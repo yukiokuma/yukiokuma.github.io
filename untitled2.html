@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>
+		Kidsgram Login
+	</title>
+	<style type="text/css">
+
+	</style>
+	<script type="text/javascript">
+		function logIn() {
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+			var parentemail = document.getElementById("parentemail").value;
+
+			if (username == "Giles" && password == "codedesign9") {
+				window.location.href = "kidsgram.html"
+
+			} else if (username == "SOCCER101" && password == "yuki0427") {
+				window.location.href = "kidsgram.html"
+			}
+		}
+	</script>
+	</head>
+	<body>
+		<h1>
+			Login
+		</h1>
+		Username: <input type="text" id="username">
+		<br>
+		<br>
+		<br>
+		Password: <input type="text" id="password">
+		<br>
+		<br>
+		<br>
+		<button id="Login" onClick="logIn()">
+			Login
+		</button>
+	</body>
+</html>
